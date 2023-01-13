@@ -1,0 +1,319 @@
+body{
+    background-color: rgb(116, 89, 141);
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0% 3% 0% 3%;
+}
+
+/* #top {
+    padding: 5% 0% 0% 0%;
+    margin: 5%;
+} */
+
+#top .name{
+    margin: .5%;
+    padding: 1% 0% 0% 10%;
+    float: left;
+    font-size: 1.5vw;
+}
+#top .skills{
+    margin: 0% 5% 3% 5%;
+    padding: 10% 10% 0% 0%;
+    float: right;
+    list-style: none;
+    font-size: 1.5vw;
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+  
+.mySlides {
+    display: none;
+}
+#slide1 {display:block}
+  
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: 7%;
+    padding: 2%;
+    color: white;
+    font-weight: bold;
+    font-size: 2vw;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3% 0 0 3%;
+}
+  
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+  
+.text {
+    color: #f2f2f2;
+    font-size: 5vw;
+    padding: 8% 12%;
+    position: absolute;
+    bottom: 8%;
+    width: 100%;
+    text-align: center;
+}
+  
+.numbertext {
+    color: #f2f2f2;
+    font-size: 2vw;
+    padding: 22% 5%;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 1% 1%;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/* #aboutme {
+  margin: 20px;
+  padding: 10%;
+  float: right;
+} */
+#aboutme .dp {
+  float: right;
+  border-radius: 4%;
+  height: 20%;
+  max-width: 40%;
+  padding: 5% 8% 0% 0%;
+  object-fit: contain;
+  display: flex;
+}
+
+#aboutme .About-Me{
+  font-weight: bold;
+  font-size: 3vw;
+  margin: 0% 0% 0% 10%;
+}
+
+#aboutme .AboutMeDesc{
+  /* max-width: 50vw; */
+  font-size: 2vw;
+  padding: 2% 45% 0% 10%;
+  margin: 0% 0% 25% 0%;
+}
+
+#works{
+  display: flex;
+  grid-template-columns: 1fr 10fr 1fr;
+  column-gap: 2%;
+  margin-top: 2%;
+}
+.mywork0{
+  margin: 0% 2% 0% 1%;
+  padding: 3% 5% 0% 17%;
+  font-weight: bold;
+  font-size: 3vw;
+  width: 50%;
+  /* max-width: 50%; */
+  /* float: left; */
+}
+
+.p{
+  padding: 0% 0% 0% 5%;
+  margin: 0% 10% 0% 10%;
+  width: 20%;
+}
+
+
+
+#works .imgwork2 {
+  /* float: left; */
+  position: center;
+  height: 70%;
+  max-width: 40%;
+  width: 360%;
+  /* margin: 1% 0% 0% 2%;
+  padding: 1% 0% 0% 5%; */
+  object-fit: contain;
+}
+
+#works .imgwork3 {
+  /* float: none; */
+  height: 70%;
+  max-width: 50%;
+  width: 400%;
+  /* margin: 1% 0% 0% 0%;
+  padding: 1% 0% 0% 0%; */
+  object-fit: contain;
+}
+
+#works1{
+  display: flex;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  gap: 2%;
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+
+.imgwork {
+  float: left;
+  border-radius: 2%;
+  height: 70%;
+  max-width: 40%;
+  width: 120%;
+  /* margin: 0% 0% 0% 5%;
+  padding: 3% 5% 0% 5%; */
+  object-fit: cover;
+  display: flex;
+}
+
+.text0{
+  /* padding: 0% 20% 0% 20%; */
+  font-size: 1.8vw;
+  width: 100%;
+}
+
+.text1{
+  /* padding: 0% 20% 0% 20%; */
+  font-size: 1.8vw;
+  width: 100%;
+}
+
+#works2{
+  display: flex;
+  grid-template-columns: 10fr 1fr 1fr;
+  column-gap: 2%;
+}
+
+.imgwork4 {
+  float: right;
+  border-radius: 2%;
+  height: 70%;
+  width: 50%;
+  /* margin: 0% 2% 0% 2%;
+  padding: 0% 2% 0% 2%; */
+  object-fit: cover;
+  display: flex;
+}
+
+.imgwork5 {
+  float: right;
+  border-radius: 2%;
+  height: 70%;
+  width: 50%;
+  /* margin: 0% 2% 0% 2%;
+  padding: 0% 2% 0% 2%; */
+  object-fit: cover;
+  display: flex;
+}
+
+.text2{
+  margin: 1% 0% 1% 1%;
+  padding: 8% 0% 7% 5%;
+  font-size: 1.8vw;
+}
+
+#sepa {
+  display: flex;
+  gap: 3%;
+}
+.sep{
+  float: right;
+  font-size: 1.5vw;
+  /* width: 20%; */
+  padding: 0% 5% 0% 75%;
+  margin: 0% 0% 1% 0%;
+}
+
+#last0{
+  display: flex;
+  grid-template-columns: 1fr 10fr 1fr;
+  column-gap: 2%;
+  gap: 2%;
+}
+
+.quote{
+  font-size: 3vw;
+}
+
+.choujin0{
+  float: left;
+  border-radius: 2%;
+  height: 70%;
+  max-width: 40%;
+  width: 40%;
+  object-fit: cover;
+  padding: 10% 0% 0% 0%;
+}
+
+.imgdesc{
+  font-size: 1.6vw;
+  padding: 42% 0% 0% 0%;
+}
+
+#buttom{
+  float: left;
+  width: 100%;
+  margin-top: 8%;
+  
+}
+
+.work0 {
+  float: left;
+  font-size: 5vw;
+}
+
+.dpic0 {
+  float: right;
+  max-width: 40%;
+  width: 100%;
+  margin: 1%;
+}
+
+#buttomlastna{
+  margin: 5% 0% 0% 20%;
+  padding: 0% 0% 0% 40%;
+}
+.contacts0{
+  font-size: 1.5vw;
+  padding-bottom: 2%;
+}
+
+.contacts1{
+  font-size: 1.5vw;
+  padding-bottom: 2%;
+}
+
+.contacts2{
+  font-size: 1.5vw;
+  padding-bottom: 2%;
+}
